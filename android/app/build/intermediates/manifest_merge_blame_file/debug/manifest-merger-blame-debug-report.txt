@@ -1,0 +1,647 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.imsvietnamese.android.tanthanhson.v2"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/hoapham/Desktop/totvatot/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/hoapham/Desktop/totvatot/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:5:5-64
+13-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:5:22-62
+14
+15    <uses-feature
+15-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:6:5-84
+16        android:name="android.hardware.camera"
+16-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:6:19-57
+17        android:required="false" />
+17-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:6:58-82
+18    <uses-feature
+18-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:7:5-90
+19        android:name="android.hardware.camera.front"
+19-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:7:19-63
+20        android:required="false" />
+20-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:7:64-88
+21
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->[com.facebook.flipper:flipper:0.75.1] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/e1d669587456380c8d4e62dfc92484ee/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
+22-->[com.facebook.flipper:flipper:0.75.1] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/e1d669587456380c8d4e62dfc92484ee/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[:react-native-community_netinfo] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+23-->[:react-native-community_netinfo] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-76
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->[:react-native-firebase_auth] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+24-->[:react-native-firebase_auth] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+25
+26    <queries>
+26-->[:react-native-image-crop-picker] /Users/hoapham/Desktop/totvatot/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-14:15
+27        <intent>
+27-->[:react-native-image-crop-picker] /Users/hoapham/Desktop/totvatot/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-13:18
+28            <action android:name="android.media.action.IMAGE_CAPTURE" />
+28-->[:react-native-image-crop-picker] /Users/hoapham/Desktop/totvatot/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-73
+28-->[:react-native-image-crop-picker] /Users/hoapham/Desktop/totvatot/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:21-70
+29        </intent>
+30
+31        <package android:name="com.mservice.momotransfer" />
+31-->[:react-native-momosdk] /Users/hoapham/Desktop/totvatot/node_modules/react-native-momosdk/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-61
+31-->[:react-native-momosdk] /Users/hoapham/Desktop/totvatot/node_modules/react-native-momosdk/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:18-58
+32        <package android:name="vn.momo.platform.test" />
+32-->[:react-native-momosdk] /Users/hoapham/Desktop/totvatot/node_modules/react-native-momosdk/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-57
+32-->[:react-native-momosdk] /Users/hoapham/Desktop/totvatot/node_modules/react-native-momosdk/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:18-54
+33    </queries>
+34
+35    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+35-->[:react-native-image-crop-picker] /Users/hoapham/Desktop/totvatot/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-81
+35-->[:react-native-image-crop-picker] /Users/hoapham/Desktop/totvatot/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:22-78
+36    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+36-->[com.google.firebase:firebase-messaging:22.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:5-82
+36-->[com.google.firebase:firebase-messaging:22.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:22-79
+37    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- for android -->
+37-->[com.android.installreferrer:installreferrer:1.1.2] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/536031610ff5b0ba0c44c4d5cad59853/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+37-->[com.android.installreferrer:installreferrer:1.1.2] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/536031610ff5b0ba0c44c4d5cad59853/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+38    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+39    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+40    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+41    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+42    <!-- for Samsung -->
+43    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+43-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+43-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+44    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+45    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+46    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+47    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+48    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+49    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+50    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+51    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+52    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+53    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+54    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+55    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+56    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+57    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+58    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+58-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+58-->[me.leolin:ShortcutBadger:1.1.22] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+59
+60    <application
+60-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:9:5-50:19
+61        android:name="com.imsvietnamese.android.tanthanhson.v2.MainApplication"
+61-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:10:7-38
+62        android:allowBackup="false"
+62-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:14:7-34
+63        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+63-->[androidx.core:core:1.3.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/52ce423523caf71efb291c36028c21d3/core-1.3.0/AndroidManifest.xml:24:18-86
+64        android:debuggable="true"
+65        android:hardwareAccelerated="true"
+65-->[com.github.momo-wallet:mobile-sdk:1.0.6] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/520f034832240b2999d796df3481cddd/jetified-mobile-sdk-1.0.6/AndroidManifest.xml:14:9-43
+66        android:icon="@drawable/icon_app"
+66-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:12:7-40
+67        android:label="@string/app_name"
+67-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:11:7-39
+68        android:requestLegacyExternalStorage="true"
+68-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:17:7-50
+69        android:roundIcon="@drawable/icon_app"
+69-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:13:7-45
+70        android:supportsRtl="true"
+70-->[com.facebook.android:facebook-android-sdk:9.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/3963626d9af565f850d8051bbe721499/jetified-facebook-android-sdk-9.0.0/AndroidManifest.xml:28:18-44
+71        android:theme="@style/AppTheme"
+71-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:15:7-38
+72        android:usesCleartextTraffic="true" >
+72-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:16:7-42
+73        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+73-->/Users/hoapham/Desktop/totvatot/android/app/src/debug/AndroidManifest.xml:11:9-86
+73-->/Users/hoapham/Desktop/totvatot/android/app/src/debug/AndroidManifest.xml:11:19-83
+74
+75        <meta-data
+75-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:19:7-21:50
+76            android:name="com.facebook.sdk.ApplicationId"
+76-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:20:9-54
+77            android:value="@string/facebook_app_id" />
+77-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:21:9-48
+78
+79        <activity
+79-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:23:7-31:18
+80            android:name="com.imsvietnamese.android.tanthanhson.v2.MainActivity"
+80-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:24:9-37
+81            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+81-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:26:9-86
+82            android:exported="true"
+82-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:29:9-32
+83            android:label="@string/app_name"
+83-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:25:9-41
+84            android:launchMode="singleTask"
+84-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:27:9-40
+85            android:screenOrientation="portrait"
+85-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:28:9-45
+86            android:windowSoftInputMode="adjustResize" >
+86-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:30:9-51
+87        </activity>
+88        <activity
+88-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:33:8-48:20
+89            android:name="com.zoontek.rnbootsplash.RNBootSplashActivity"
+89-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:34:11-71
+90            android:launchMode="singleTask"
+90-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:36:11-42
+91            android:theme="@style/BootTheme" >
+91-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:35:11-43
+92            <intent-filter>
+92-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:37:11-40:27
+93                <action android:name="android.intent.action.MAIN" />
+93-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:38:13-65
+93-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:38:21-62
+94
+95                <category android:name="android.intent.category.LAUNCHER" />
+95-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:39:13-73
+95-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:39:23-70
+96            </intent-filter>
+97            <intent-filter>
+97-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:42:11-47:25
+98                <action android:name="android.intent.action.VIEW" />
+98-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:43:13-65
+98-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:43:21-62
+99
+100                <category android:name="android.intent.category.DEFAULT" />
+100-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:44:13-72
+100-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:44:23-69
+101                <category android:name="android.intent.category.BROWSABLE" />
+101-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:45:13-74
+101-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:45:23-71
+102
+103                <data android:scheme="totvatot" />
+103-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:46:13-47
+103-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:46:19-44
+104            </intent-filter>
+105        </activity>
+106
+107        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+107-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-111
+107-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-108
+108        <service
+108-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-23:19
+109            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+109-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-95
+110            android:exported="false" >
+110-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-37
+111            <intent-filter>
+111-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-22:29
+112                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+112-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-78
+112-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-75
+113            </intent-filter>
+114        </service>
+115
+116        <receiver
+116-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-32:20
+117            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+117-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-96
+118            android:exported="true"
+118-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-36
+119            android:permission="com.google.android.c2dm.permission.SEND" >
+119-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-73
+120            <intent-filter>
+120-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-31:29
+121                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+121-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-81
+121-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-78
+122            </intent-filter>
+123        </receiver>
+124
+125        <meta-data
+125-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:9-36:36
+126            android:name="firebase_messaging_auto_init_enabled"
+126-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-64
+127            android:value="true" />
+127-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-33
+128        <meta-data
+128-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-39:32
+129            android:name="com.google.firebase.messaging.default_notification_channel_id"
+129-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-89
+130            android:value="" />
+130-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-29
+131        <meta-data
+131-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:9-42:47
+132            android:name="com.google.firebase.messaging.default_notification_color"
+132-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-84
+133            android:resource="@color/white" />
+133-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-44
+134        <meta-data
+134-->[:react-native-firebase_app] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:36
+135            android:name="app_data_collection_default_enabled"
+135-->[:react-native-firebase_app] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-63
+136            android:value="true" />
+136-->[:react-native-firebase_app] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-33
+137
+138        <service
+138-->[:react-native-firebase_app] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-20:19
+139            android:name="com.google.firebase.components.ComponentDiscoveryService"
+139-->[:react-native-firebase_app] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-89
+140            android:directBootAware="true"
+140-->[com.google.firebase:firebase-common:20.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+141            android:exported="false" >
+141-->[com.google.firebase:firebase-auth:21.0.1] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+142            <meta-data
+142-->[:react-native-firebase_app] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
+143                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+143-->[:react-native-firebase_app] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-120
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[:react-native-firebase_app] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-82
+145            <meta-data
+145-->[com.google.firebase:firebase-auth:21.0.1] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+146                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+146-->[com.google.firebase:firebase-auth:21.0.1] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+147                android:value="com.google.firebase.components.ComponentRegistrar" />
+147-->[com.google.firebase:firebase-auth:21.0.1] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+148            <meta-data
+148-->[com.google.firebase:firebase-messaging:22.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
+149                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+149-->[com.google.firebase:firebase-messaging:22.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
+150                android:value="com.google.firebase.components.ComponentRegistrar" />
+150-->[com.google.firebase:firebase-messaging:22.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
+151            <meta-data
+151-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/bf606e5670d7119405b2092a26d708a8/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+152                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+152-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/bf606e5670d7119405b2092a26d708a8/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+153                android:value="com.google.firebase.components.ComponentRegistrar" />
+153-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/bf606e5670d7119405b2092a26d708a8/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+154            <meta-data
+154-->[com.google.firebase:firebase-installations:17.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/9e5d573d5846ec4abfa4160f8fee727f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+155                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+155-->[com.google.firebase:firebase-installations:17.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/9e5d573d5846ec4abfa4160f8fee727f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+156                android:value="com.google.firebase.components.ComponentRegistrar" />
+156-->[com.google.firebase:firebase-installations:17.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/9e5d573d5846ec4abfa4160f8fee727f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+157        </service>
+158
+159        <provider
+159-->[:react-native-firebase_app] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-26:38
+160            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+160-->[:react-native-firebase_app] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-88
+161            android:authorities="com.imsvietnamese.android.tanthanhson.v2.reactnativefirebaseappinitprovider"
+161-->[:react-native-firebase_app] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-86
+162            android:exported="false"
+162-->[:react-native-firebase_app] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-37
+163            android:initOrder="99" />
+163-->[:react-native-firebase_app] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-35
+164        <provider
+164-->[:react-native-image-crop-picker] /Users/hoapham/Desktop/totvatot/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-27:20
+165            android:name="androidx.core.content.FileProvider"
+165-->[:react-native-image-crop-picker] /Users/hoapham/Desktop/totvatot/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-62
+166            android:authorities="com.imsvietnamese.android.tanthanhson.v2.provider"
+166-->[:react-native-image-crop-picker] /Users/hoapham/Desktop/totvatot/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-60
+167            android:exported="false"
+167-->[:react-native-image-crop-picker] /Users/hoapham/Desktop/totvatot/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-37
+168            android:grantUriPermissions="true" >
+168-->[:react-native-image-crop-picker] /Users/hoapham/Desktop/totvatot/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-47
+169            <meta-data
+169-->[:react-native-image-crop-picker] /Users/hoapham/Desktop/totvatot/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:58
+170                android:name="android.support.FILE_PROVIDER_PATHS"
+170-->[:react-native-image-crop-picker] /Users/hoapham/Desktop/totvatot/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+171                android:resource="@xml/provider_paths" />
+171-->[:react-native-image-crop-picker] /Users/hoapham/Desktop/totvatot/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-55
+172        </provider>
+173
+174        <activity
+174-->[:react-native-image-crop-picker] /Users/hoapham/Desktop/totvatot/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:9-31:72
+175            android:name="com.yalantis.ucrop.UCropActivity"
+175-->[:react-native-image-crop-picker] /Users/hoapham/Desktop/totvatot/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-60
+176            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+176-->[:react-native-image-crop-picker] /Users/hoapham/Desktop/totvatot/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-69
+177
+178        <provider
+178-->[:react-native-webview] /Users/hoapham/Desktop/totvatot/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+179            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+179-->[:react-native-webview] /Users/hoapham/Desktop/totvatot/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+180            android:authorities="com.imsvietnamese.android.tanthanhson.v2.fileprovider"
+180-->[:react-native-webview] /Users/hoapham/Desktop/totvatot/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+181            android:exported="false"
+181-->[:react-native-webview] /Users/hoapham/Desktop/totvatot/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+182            android:grantUriPermissions="true" >
+182-->[:react-native-webview] /Users/hoapham/Desktop/totvatot/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+183            <meta-data
+183-->[:react-native-image-crop-picker] /Users/hoapham/Desktop/totvatot/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:58
+184                android:name="android.support.FILE_PROVIDER_PATHS"
+184-->[:react-native-image-crop-picker] /Users/hoapham/Desktop/totvatot/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+185                android:resource="@xml/file_provider_paths" />
+185-->[:react-native-image-crop-picker] /Users/hoapham/Desktop/totvatot/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-55
+186        </provider>
+187
+188        <activity
+188-->[com.google.firebase:firebase-auth:21.0.1] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+189            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+189-->[com.google.firebase:firebase-auth:21.0.1] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+190            android:excludeFromRecents="true"
+190-->[com.google.firebase:firebase-auth:21.0.1] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+191            android:exported="true"
+191-->[com.google.firebase:firebase-auth:21.0.1] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+192            android:launchMode="singleTask"
+192-->[com.google.firebase:firebase-auth:21.0.1] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+193            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+193-->[com.google.firebase:firebase-auth:21.0.1] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+194            <intent-filter>
+194-->[com.google.firebase:firebase-auth:21.0.1] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+195                <action android:name="android.intent.action.VIEW" />
+195-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:43:13-65
+195-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:43:21-62
+196
+197                <category android:name="android.intent.category.DEFAULT" />
+197-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:44:13-72
+197-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:44:23-69
+198                <category android:name="android.intent.category.BROWSABLE" />
+198-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:45:13-74
+198-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:45:23-71
+199
+200                <data
+200-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:46:13-47
+201                    android:host="firebase.auth"
+202                    android:path="/"
+203                    android:scheme="genericidp" />
+203-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:46:19-44
+204            </intent-filter>
+205        </activity>
+206        <activity
+206-->[com.google.firebase:firebase-auth:21.0.1] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+207            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+207-->[com.google.firebase:firebase-auth:21.0.1] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+208            android:excludeFromRecents="true"
+208-->[com.google.firebase:firebase-auth:21.0.1] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+209            android:exported="true"
+209-->[com.google.firebase:firebase-auth:21.0.1] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+210            android:launchMode="singleTask"
+210-->[com.google.firebase:firebase-auth:21.0.1] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+211            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+211-->[com.google.firebase:firebase-auth:21.0.1] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+212            <intent-filter>
+212-->[com.google.firebase:firebase-auth:21.0.1] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+213                <action android:name="android.intent.action.VIEW" />
+213-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:43:13-65
+213-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:43:21-62
+214
+215                <category android:name="android.intent.category.DEFAULT" />
+215-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:44:13-72
+215-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:44:23-69
+216                <category android:name="android.intent.category.BROWSABLE" />
+216-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:45:13-74
+216-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:45:23-71
+217
+218                <data
+218-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:46:13-47
+219                    android:host="firebase.auth"
+220                    android:path="/"
+221                    android:scheme="recaptcha" />
+221-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:46:19-44
+222            </intent-filter>
+223        </activity>
+224
+225        <service
+225-->[com.google.firebase:firebase-auth:21.0.1] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+226            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+226-->[com.google.firebase:firebase-auth:21.0.1] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+227            android:enabled="true"
+227-->[com.google.firebase:firebase-auth:21.0.1] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+228            android:exported="false" >
+228-->[com.google.firebase:firebase-auth:21.0.1] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+229            <intent-filter>
+229-->[com.google.firebase:firebase-auth:21.0.1] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+230                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+230-->[com.google.firebase:firebase-auth:21.0.1] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+230-->[com.google.firebase:firebase-auth:21.0.1] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/ba7ac2cbd19833a342f190b04e872d60/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+231
+232                <category android:name="android.intent.category.DEFAULT" />
+232-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:44:13-72
+232-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:44:23-69
+233            </intent-filter>
+234        </service>
+235
+236        <activity
+236-->[com.facebook.android:facebook-common:9.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/a639c525e9846b822e739c8a2b9d3c21/jetified-facebook-common-9.0.0/AndroidManifest.xml:30:9-33:66
+237            android:name="com.facebook.FacebookActivity"
+237-->[com.facebook.android:facebook-common:9.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/a639c525e9846b822e739c8a2b9d3c21/jetified-facebook-common-9.0.0/AndroidManifest.xml:31:13-57
+238            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+238-->[com.facebook.android:facebook-common:9.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/a639c525e9846b822e739c8a2b9d3c21/jetified-facebook-common-9.0.0/AndroidManifest.xml:32:13-96
+239            android:theme="@style/com_facebook_activity_theme" />
+239-->[com.facebook.android:facebook-common:9.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/a639c525e9846b822e739c8a2b9d3c21/jetified-facebook-common-9.0.0/AndroidManifest.xml:33:13-63
+240        <activity android:name="com.facebook.CustomTabMainActivity" />
+240-->[com.facebook.android:facebook-common:9.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/a639c525e9846b822e739c8a2b9d3c21/jetified-facebook-common-9.0.0/AndroidManifest.xml:34:9-71
+240-->[com.facebook.android:facebook-common:9.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/a639c525e9846b822e739c8a2b9d3c21/jetified-facebook-common-9.0.0/AndroidManifest.xml:34:19-68
+241        <activity
+241-->[com.facebook.android:facebook-common:9.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/a639c525e9846b822e739c8a2b9d3c21/jetified-facebook-common-9.0.0/AndroidManifest.xml:35:9-49:20
+242            android:name="com.facebook.CustomTabActivity"
+242-->[com.facebook.android:facebook-common:9.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/a639c525e9846b822e739c8a2b9d3c21/jetified-facebook-common-9.0.0/AndroidManifest.xml:36:13-58
+243            android:exported="true" >
+243-->[com.facebook.android:facebook-common:9.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/a639c525e9846b822e739c8a2b9d3c21/jetified-facebook-common-9.0.0/AndroidManifest.xml:37:13-36
+244            <intent-filter>
+244-->[com.facebook.android:facebook-common:9.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/a639c525e9846b822e739c8a2b9d3c21/jetified-facebook-common-9.0.0/AndroidManifest.xml:39:13-48:29
+245                <action android:name="android.intent.action.VIEW" />
+245-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:43:13-65
+245-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:43:21-62
+246
+247                <category android:name="android.intent.category.DEFAULT" />
+247-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:44:13-72
+247-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:44:23-69
+248                <category android:name="android.intent.category.BROWSABLE" />
+248-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:45:13-74
+248-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:45:23-71
+249
+250                <data
+250-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:46:13-47
+251                    android:host="cct.com.imsvietnamese.android.tanthanhson.v2"
+252                    android:scheme="fbconnect" />
+252-->/Users/hoapham/Desktop/totvatot/android/app/src/main/AndroidManifest.xml:46:19-44
+253            </intent-filter>
+254        </activity>
+255
+256        <meta-data
+256-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/0ba687c03073a4c3c26d82c70acadef0/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+257            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+257-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/0ba687c03073a4c3c26d82c70acadef0/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+258            android:value="GlideModule" />
+258-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/0ba687c03073a4c3c26d82c70acadef0/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+259
+260        <receiver
+260-->[com.google.firebase:firebase-messaging:22.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:28:9-35:20
+261            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+261-->[com.google.firebase:firebase-messaging:22.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:29:13-78
+262            android:exported="true"
+262-->[com.google.firebase:firebase-messaging:22.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:30:13-36
+263            android:permission="com.google.android.c2dm.permission.SEND" >
+263-->[com.google.firebase:firebase-messaging:22.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
+264            <intent-filter>
+264-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-31:29
+265                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+265-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-81
+265-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-78
+266            </intent-filter>
+267        </receiver>
+268        <!--
+269             FirebaseMessagingService performs security checks at runtime,
+270             but set to not exported to explicitly avoid allowing another app to call it.
+271        -->
+272        <service
+272-->[com.google.firebase:firebase-messaging:22.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:41:9-48:19
+273            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+273-->[com.google.firebase:firebase-messaging:22.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:42:13-82
+274            android:directBootAware="true"
+274-->[com.google.firebase:firebase-messaging:22.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:43:13-43
+275            android:exported="false" >
+275-->[com.google.firebase:firebase-messaging:22.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
+276            <intent-filter android:priority="-500" >
+276-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-22:29
+277                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+277-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-78
+277-->[:react-native-firebase_messaging] /Users/hoapham/Desktop/totvatot/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-75
+278            </intent-filter>
+279        </service>
+280        <service
+280-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+281            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+281-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+282            android:exported="false" >
+282-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+283            <meta-data
+283-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+284                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+284-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+285                android:value="cct" />
+285-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+286        </service>
+287        <service
+287-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+288            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+288-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+289            android:exported="false"
+289-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+290            android:permission="android.permission.BIND_JOB_SERVICE" >
+290-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+291        </service>
+292
+293        <receiver
+293-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+294            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+294-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+295            android:exported="false" />
+295-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+296
+297        <activity
+297-->[com.google.android.gms:play-services-auth:19.2.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+298            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+298-->[com.google.android.gms:play-services-auth:19.2.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+299            android:excludeFromRecents="true"
+299-->[com.google.android.gms:play-services-auth:19.2.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+300            android:exported="false"
+300-->[com.google.android.gms:play-services-auth:19.2.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+301            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+301-->[com.google.android.gms:play-services-auth:19.2.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+302        <!--
+303            Service handling Google Sign-In user revocation. For apps that do not integrate with
+304            Google Sign-In, this service will never be started.
+305        -->
+306        <service
+306-->[com.google.android.gms:play-services-auth:19.2.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+307            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+307-->[com.google.android.gms:play-services-auth:19.2.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+308            android:exported="true"
+308-->[com.google.android.gms:play-services-auth:19.2.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+309            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+309-->[com.google.android.gms:play-services-auth:19.2.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+310            android:visibleToInstantApps="true" />
+310-->[com.google.android.gms:play-services-auth:19.2.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+311
+312        <activity
+312-->[com.google.android.gms:play-services-base:17.5.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/539b7be7a2b3a05a04064c89f6e7b6d2/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+313            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+313-->[com.google.android.gms:play-services-base:17.5.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/539b7be7a2b3a05a04064c89f6e7b6d2/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+314            android:exported="false"
+314-->[com.google.android.gms:play-services-base:17.5.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/539b7be7a2b3a05a04064c89f6e7b6d2/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+315            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+315-->[com.google.android.gms:play-services-base:17.5.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/539b7be7a2b3a05a04064c89f6e7b6d2/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+316
+317        <provider
+317-->[com.google.firebase:firebase-common:20.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+318            android:name="com.google.firebase.provider.FirebaseInitProvider"
+318-->[com.google.firebase:firebase-common:20.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+319            android:authorities="com.imsvietnamese.android.tanthanhson.v2.firebaseinitprovider"
+319-->[com.google.firebase:firebase-common:20.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+320            android:directBootAware="true"
+320-->[com.google.firebase:firebase-common:20.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+321            android:exported="false"
+321-->[com.google.firebase:firebase-common:20.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+322            android:initOrder="100" />
+322-->[com.google.firebase:firebase-common:20.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+323
+324        <meta-data
+324-->[com.google.android.gms:play-services-basement:17.5.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/819ec8c6af10e4a00a056b819af593de/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+325            android:name="com.google.android.gms.version"
+325-->[com.google.android.gms:play-services-basement:17.5.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/819ec8c6af10e4a00a056b819af593de/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+326            android:value="@integer/google_play_services_version" />
+326-->[com.google.android.gms:play-services-basement:17.5.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/819ec8c6af10e4a00a056b819af593de/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+327        <!--
+328         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+329         with the application context. This config is merged in with the host app's manifest,
+330         but there can only be one provider with the same authority activated at any given
+331         point; so if the end user has two or more different apps that use Facebook SDK, only the
+332         first one will be able to use the provider. To work around this problem, we use the
+333         following placeholder in the authority to identify each host application as if it was
+334         a completely different provider.
+335        -->
+336        <provider
+336-->[com.facebook.android:facebook-core:9.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:39:9-42:40
+337            android:name="com.facebook.internal.FacebookInitProvider"
+337-->[com.facebook.android:facebook-core:9.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:40:13-70
+338            android:authorities="com.imsvietnamese.android.tanthanhson.v2.FacebookInitProvider"
+338-->[com.facebook.android:facebook-core:9.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:41:13-72
+339            android:exported="false" />
+339-->[com.facebook.android:facebook-core:9.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:42:13-37
+340
+341        <receiver
+341-->[com.facebook.android:facebook-core:9.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:44:9-50:20
+342            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+342-->[com.facebook.android:facebook-core:9.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:45:13-86
+343            android:exported="false" >
+343-->[com.facebook.android:facebook-core:9.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:46:13-37
+344            <intent-filter>
+344-->[com.facebook.android:facebook-core:9.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:47:13-49:29
+345                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+345-->[com.facebook.android:facebook-core:9.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:48:17-95
+345-->[com.facebook.android:facebook-core:9.0.0] /Users/hoapham/.gradle/caches/transforms-2/files-2.1/f596be6910c39927a4610e78845342e5/jetified-facebook-core-9.0.0/AndroidManifest.xml:48:25-92
+346            </intent-filter>
+347        </receiver>
+348    </application>
+349
+350</manifest>

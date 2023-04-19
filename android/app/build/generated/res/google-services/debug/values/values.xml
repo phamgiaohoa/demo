@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">119321038799-dav545o6gfkbm29po7e1kpidi6654v3i.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">119321038799</string>
+    <string name="google_api_key" translatable="false">AIzaSyAgBY5gGntvIG20KhhimSMOg_2uXQ0FsuM</string>
+    <string name="google_app_id" translatable="false">1:119321038799:android:ba04affcec8ca959388cba</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAgBY5gGntvIG20KhhimSMOg_2uXQ0FsuM</string>
+    <string name="google_storage_bucket" translatable="false">tan-thanh-son.appspot.com</string>
+    <string name="project_id" translatable="false">tan-thanh-son</string>
+</resources>

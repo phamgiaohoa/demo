@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "119321038799",
+    "project_id": "tan-thanh-son",
+    "storage_bucket": "tan-thanh-son.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119321038799:android:ba04affcec8ca959388cba",
+        "android_client_info": {
+          "package_name": "com.imsvietnamese.android.tanthanhson.v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119321038799-4hn970nrm2hhl0quuaq9sbdlqt9l45l4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.imsvietnamese.android.tanthanhson.v2",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "119321038799-dav545o6gfkbm29po7e1kpidi6654v3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgBY5gGntvIG20KhhimSMOg_2uXQ0FsuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119321038799-dav545o6gfkbm29po7e1kpidi6654v3i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "119321038799-2mem0mh2g2rlm6tkgrdart88atk09kvi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.imsvietnamese.ios.tanthanhson"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

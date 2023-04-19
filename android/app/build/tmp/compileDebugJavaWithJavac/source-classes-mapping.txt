@@ -1,0 +1,14 @@
+com/tanthanhson/ReactNativeFlipper.java
+ com.imsvietnamese.android.tanthanhson.v2.ReactNativeFlipper
+ com.imsvietnamese.android.tanthanhson.v2.ReactNativeFlipper$1
+ com.imsvietnamese.android.tanthanhson.v2.ReactNativeFlipper$2
+ com.imsvietnamese.android.tanthanhson.v2.ReactNativeFlipper$2$1
+com/imsvietnamese/android/tanthanhson/v2/BuildConfig.java
+ com.imsvietnamese.android.tanthanhson.v2.BuildConfig
+com/tanthanhson/MainApplication.java
+ com.imsvietnamese.android.tanthanhson.v2.MainApplication
+ com.imsvietnamese.android.tanthanhson.v2.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/tanthanhson/MainActivity.java
+ com.imsvietnamese.android.tanthanhson.v2.MainActivity

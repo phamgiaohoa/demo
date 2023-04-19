@@ -1,0 +1,51 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.imsvietnamese.android.tanthanhson.v2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+
+    <application
+      android:name=".MainApplication"
+      android:label="@string/app_name"
+      android:icon="@drawable/icon_app" 
+      android:roundIcon="@drawable/icon_app"
+      android:allowBackup="false"
+      android:theme="@style/AppTheme"
+      android:usesCleartextTraffic="true" 
+      android:requestLegacyExternalStorage="true">
+
+      <meta-data 
+        android:name="com.facebook.sdk.ApplicationId" 
+        android:value="@string/facebook_app_id"/>
+      
+      <activity
+        android:name=".MainActivity"
+        android:label="@string/app_name"
+        android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+        android:launchMode="singleTask"
+        android:screenOrientation="portrait"
+        android:exported="true"
+        android:windowSoftInputMode="adjustResize">
+      </activity>
+
+       <activity
+          android:name="com.zoontek.rnbootsplash.RNBootSplashActivity"
+          android:theme="@style/BootTheme"
+          android:launchMode="singleTask">
+          <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+          </intent-filter>
+
+          <intent-filter>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="totvatot" />
+        </intent-filter>
+        </activity>
+  
+    </application>
+</manifest>
